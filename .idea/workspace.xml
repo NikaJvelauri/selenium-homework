@@ -61,7 +61,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CommandsTest2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CommandsTest.inputField">
     <configuration name="CommandsTest.enableButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
@@ -78,8 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommandsTest.inputField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.commands" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.CommandsTest" />
+      <option name="METHOD_NAME" value="inputField" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommandsTest.inputField" />
         <item itemvalue="JUnit.CommandsTest.enableButton" />
       </list>
     </recent_temporary>
@@ -105,5 +122,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1626951096153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626951096153" />
+    <state x="776" y="297" key="chooseDestDirectoryDialog" timestamp="1626951258794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626951258794" />
   </component>
 </project>
