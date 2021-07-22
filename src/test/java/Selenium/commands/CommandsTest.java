@@ -36,5 +36,18 @@ public class CommandsTest {
         element1.clear();
 
     }
+    @Test
+    public void navigate(){
+        WebDriverManager.chromedriver().setup();
+        ChromeDriver driver = new ChromeDriver();
+        driver.get("http://the-internet.herokuapp.com/drag_and_drop");
+        driver.manage().window().maximize();
+        WebElement element = driver.findElement(By.id("column-a"));
+        WebElement element1 = driver.findElement(By.id("column-b"));
+        Point point = element.getLocation();
+        System.out.println("Column-A Ycordinate:" + " " + point.y);
+        Point pointB = element1.getLocation();
+        System.out.println("Column-B Ycordinate:" + " " + pointB.y);
 
+    }
 }

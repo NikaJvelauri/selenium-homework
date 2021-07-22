@@ -61,7 +61,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CommandsTest2" />
   </component>
-  <component name="RunManager" selected="JUnit.CommandsTest.inputField">
+  <component name="RunManager" selected="JUnit.CommandsTest.navigate">
     <configuration name="CommandsTest.enableButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
@@ -94,8 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommandsTest.navigate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.commands" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.CommandsTest" />
+      <option name="METHOD_NAME" value="navigate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommandsTest.navigate" />
         <item itemvalue="JUnit.CommandsTest.inputField" />
         <item itemvalue="JUnit.CommandsTest.enableButton" />
       </list>
