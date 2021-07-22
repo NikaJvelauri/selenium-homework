@@ -1,2 +1,2 @@
 # selenium-homework
-For TBC IT Academy
+დავალება ატვირთულია commands/day1 ბრენჩზე(მაგ ბრენჩზე დავფუშე)
