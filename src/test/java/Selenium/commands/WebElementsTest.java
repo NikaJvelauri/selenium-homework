@@ -16,7 +16,7 @@ public class WebElementsTest {
     }
 
     @Test
-    public void getTextAndClear() throws InterruptedException {
+    public void addAndPrint(){
         driver.get("http://the-internet.herokuapp.com/add_remove_elements/");
         driver.manage().window().maximize();
         WebElement element = driver.findElement(By.xpath("//*[@id=\"content\"]/div/button"));
@@ -24,5 +24,9 @@ public class WebElementsTest {
             element.click();
         }
         System.out.println("Printed Text: "+ driver.findElement(By.xpath("/html/body/div[2]/div/div/div/button[3]")).getText());
+        System.out.println("Printed Text: "+ driver.findElements(By.cssSelector(".added-manually")));
+        System.out.println("Printed Text: "+ driver.findElement(By.xpath("//button[contains(@class, 'manually') and text() = 'Delete']")).getText());
+
+
     }
 }
