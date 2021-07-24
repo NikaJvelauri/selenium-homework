@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
 public class WebElementsTest {
     WebDriver driver;
 
@@ -24,7 +25,7 @@ public class WebElementsTest {
             element.click();
         }
         System.out.println("Printed Text: "+ driver.findElement(By.xpath("/html/body/div[2]/div/div/div/button[3]")).getText());
-        System.out.println("Printed Text: "+ driver.findElements(By.cssSelector(".added-manually")));
+        System.out.println("Printed Text: "+ driver.findElements(By.cssSelector("input[class^='added']")));
         System.out.println("Printed Text: "+ driver.findElement(By.xpath("//button[contains(@class, 'manually') and text() = 'Delete']")).getText());
     }
     @Test
