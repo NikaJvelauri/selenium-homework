@@ -1,2 +1,1 @@
-# selenium-homework
-For TBC IT Academy
+last-child დამავიწყდააააა :/
