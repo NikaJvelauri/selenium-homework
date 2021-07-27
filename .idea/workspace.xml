@@ -28,8 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7e1faf-adb6-4fb9-bfbc-ee228ea8333f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/WaitsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/commands/WebElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/WebElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/WebElementsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/WebElementsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,23 +66,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CommandsTest2" />
   </component>
-  <component name="RunManager" selected="JUnit.WebElementsTest.challengingDom">
-    <configuration name="CommandsTest.inputField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium.commands.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.CommandsTest" />
-      <option name="METHOD_NAME" value="inputField" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WaitsTest.waitTest">
     <configuration name="CommandsTest.navigate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
@@ -92,6 +78,22 @@
       <option name="PACKAGE_NAME" value="Selenium.commands" />
       <option name="MAIN_CLASS_NAME" value="Selenium.commands.CommandsTest" />
       <option name="METHOD_NAME" value="navigate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitsTest.waitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.commands" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.WaitsTest" />
+      <option name="METHOD_NAME" value="waitTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebElementsTest.challengingDom" />
+        <item itemvalue="JUnit.WaitsTest.waitTest" />
         <item itemvalue="JUnit.WebElementsTest.addAndPrint" />
+        <item itemvalue="JUnit.WebElementsTest.challengingDom" />
         <item itemvalue="JUnit.WebElementsTest.getTextAndClear" />
         <item itemvalue="JUnit.CommandsTest.navigate" />
-        <item itemvalue="JUnit.CommandsTest.inputField" />
       </list>
     </recent_temporary>
   </component>
@@ -183,22 +185,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626951096153" />
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1627073801809">
+    <state width="1187" height="161" key="GridCell.Tab.0.bottom" timestamp="1627384430447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627073801809" />
-    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1627073801809">
+    <state width="1187" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627384430447" />
+    <state width="1187" height="161" key="GridCell.Tab.0.center" timestamp="1627384430447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627073801809" />
-    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1627073801809">
+    <state width="1187" height="161" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627384430447" />
+    <state width="1187" height="161" key="GridCell.Tab.0.left" timestamp="1627384430447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627073801809" />
-    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1627073801809">
+    <state width="1187" height="161" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627384430447" />
+    <state width="1187" height="161" key="GridCell.Tab.0.right" timestamp="1627384430447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627073801809" />
+    <state width="1187" height="161" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627384430447" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1627115847537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627115847537" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1627115847537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627115847537" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1627115847536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627115847536" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1627115847537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627115847537" />
     <state x="776" y="297" key="chooseDestDirectoryDialog" timestamp="1626951258794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -209,19 +227,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/WebElementsTest.java</url>
-          <line>18</line>
-          <properties class="Selenium.commands.WebElementsTest" method="addAndPrint">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/WebElementsTest.java</url>
-          <line>30</line>
+          <line>46</line>
           <properties class="Selenium.commands.WebElementsTest" method="challengingDom">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/WebElementsTest.java</url>
+          <line>21</line>
+          <properties class="Selenium.commands.WebElementsTest" method="addAndPrint">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/WaitsTest.java</url>
+          <line>23</line>
+          <properties class="Selenium.commands.WaitsTest" method="waitTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

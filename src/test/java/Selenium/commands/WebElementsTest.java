@@ -7,6 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class WebElementsTest {
     WebDriver driver;
 
@@ -23,9 +26,22 @@ public class WebElementsTest {
         for (int i = 0; i < 3; i++) {
             element.click();
         }
+
         System.out.println("Printed Text: "+ driver.findElement(By.xpath("/html/body/div[2]/div/div/div/button[3]")).getText());
-        System.out.println("Printed Text: "+ driver.findElements(By.cssSelector(".added-manually")));
+
+
+//        List <WebElement>  lst = driver.findElements(By.cssSelector("input[class^='added']"));
+//        List <String> strings = new ArrayList();
+//        for(WebElement e : lst){
+//            strings.add(e.getText());
+//        }
+//        System.out.println();
+
+
+//        System.out.println("Printed Text: "+ driver.findElements(By.cssSelector("input[class^='added']")));
         System.out.println("Printed Text: "+ driver.findElement(By.xpath("//button[contains(@class, 'manually') and text() = 'Delete']")).getText());
+
+
     }
     @Test
     public void challengingDom(){
@@ -34,6 +50,18 @@ public class WebElementsTest {
 //        WebElement element = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/div/div[2]/table/tbody/tr[10]/td[1]"));
         System.out.println("Lorem Value: " + driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/div/div[2]/table/tbody/tr[10]/td[2-1]")).getText());
         System.out.println("Lorem Value: " + driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/div/div[2]/table/tbody/tr[10]/td[2+1]")).getText());
+
+
+
+
+
+
+
+
+
+
+
+
         /*td[2+1] da /td[2-1] cota sacacilod chans 1 ro davamate da davakeli,
          mara davalebashi ewera ro konkretul [2] adgilze mdgomi sityvis wina da shemdegi unda dagveprinta da yvelaze martivi es movifiqre :
          (edit  after 5 minutes of thinking) tan vfiqrob parent-child funqcia xo ar mchirdeba da araferi mafqirdeba :d * ro gadavce an ragac egeti :D */
