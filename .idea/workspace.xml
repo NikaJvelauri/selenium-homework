@@ -28,8 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7e1faf-adb6-4fb9-bfbc-ee228ea8333f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/WebTablesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/commands/WebElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/WebElementsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +65,8 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CommandsTest2" />
   </component>
-  <component name="RunManager" selected="JUnit.WebElementsTest.challengingDom">
-    <configuration name="CommandsTest.inputField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WebTablesTest.webTablesTest">
+    <configuration name="Exceptions.exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +75,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.CommandsTest" />
-      <option name="METHOD_NAME" value="inputField" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.Exceptions" />
+      <option name="METHOD_NAME" value="exception" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandsTest.navigate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.handleDynamicTabl2e" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +91,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.CommandsTest" />
-      <option name="METHOD_NAME" value="navigate" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.Exceptions" />
+      <option name="METHOD_NAME" value="handleDynamicTabl2e" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebElementsTest.addAndPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.handleDynamicTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +107,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.WebElementsTest" />
-      <option name="METHOD_NAME" value="addAndPrint" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.Exceptions" />
+      <option name="METHOD_NAME" value="handleDynamicTable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebElementsTest.challengingDom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.invokeAvoid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
         <pattern>
@@ -122,14 +123,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.WebElementsTest" />
-      <option name="METHOD_NAME" value="challengingDom" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.Exceptions" />
+      <option name="METHOD_NAME" value="invokeAvoid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebElementsTest.getTextAndClear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTablesTest.webTablesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +139,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.WebElementsTest" />
-      <option name="METHOD_NAME" value="getTextAndClear" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.WebTablesTest" />
+      <option name="METHOD_NAME" value="webTablesTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebElementsTest.challengingDom" />
-        <item itemvalue="JUnit.WebElementsTest.addAndPrint" />
-        <item itemvalue="JUnit.WebElementsTest.getTextAndClear" />
-        <item itemvalue="JUnit.CommandsTest.navigate" />
-        <item itemvalue="JUnit.CommandsTest.inputField" />
+        <item itemvalue="JUnit.WebTablesTest.webTablesTest" />
+        <item itemvalue="JUnit.Exceptions.invokeAvoid" />
+        <item itemvalue="JUnit.Exceptions.exception" />
+        <item itemvalue="JUnit.Exceptions.handleDynamicTable" />
+        <item itemvalue="JUnit.Exceptions.handleDynamicTabl2e" />
       </list>
     </recent_temporary>
   </component>
@@ -183,22 +184,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626951096153" />
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1627073801809">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1627569392013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627073801809" />
-    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1627073801809">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627569392013" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1627569392013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627073801809" />
-    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1627073801809">
+    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627569392013" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1627569392013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627073801809" />
-    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1627073801809">
+    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627569392013" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1627569392013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627073801809" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627569392013" />
     <state x="776" y="297" key="chooseDestDirectoryDialog" timestamp="1626951258794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -222,6 +223,35 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/Exceptions.java</url>
+          <line>21</line>
+          <properties class="Selenium.commands.Exceptions" method="exception">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/Exceptions.java</url>
+          <line>65</line>
+          <properties class="Selenium.commands.Exceptions" method="invokeAvoid">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/WebTablesTest.java</url>
+          <line>18</line>
+          <properties class="Selenium.commands.WebTablesTest" method="webTablesTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/Exceptions.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
