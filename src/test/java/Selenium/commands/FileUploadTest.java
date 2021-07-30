@@ -30,9 +30,13 @@ public class FileUploadTest {
         //mocemuli shemdegi ori xazit gadadis google.comze shemdeg rom vegar poulob fUpload elements,
         //romelic me shevqmeni agdebs StaleElementReferenceException
         //thread.sleep gamoviyene imistvis rom gamochndes rom faili aitvirta da shemdeg gadavides googleshi da gamoitans exceptioni (ps dzaan momwons thread sleep :DD)
-        driver.get("https://www.google.com/");
-        fUpload.sendKeys("D:\\Ekko's photo\\Ekko_OriginalSkin.jpg");
+        try {
+            driver.get("https://www.google.com/");
+            fUpload.sendKeys("D:\\Ekko's photo\\Ekko_OriginalSkin.jpg");
+        }catch (StaleElementReferenceException e){
+            System.out.println("StaleElementReferenceException invoked and handled");
+        }
 
     }
-    
+
 }
