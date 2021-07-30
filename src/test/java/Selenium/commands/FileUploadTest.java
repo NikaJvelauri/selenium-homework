@@ -16,7 +16,7 @@ public class FileUploadTest {
 
 
     @Test
-    public void fileUpload() {
+    public void fileUpload() throws InterruptedException {
         driver.get("http://the-internet.herokuapp.com/upload");
         driver.manage().window().maximize();
         WebElement fUpload = driver.findElement(By.xpath("//*[@id='file-upload']"));
