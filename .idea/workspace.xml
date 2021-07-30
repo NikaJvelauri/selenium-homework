@@ -28,8 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7e1faf-adb6-4fb9-bfbc-ee228ea8333f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/FileUploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/JSexecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/commands/FileUploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/FileUploadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,38 +66,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CommandsTest2" />
   </component>
   <component name="RunManager" selected="JUnit.FileUploadTest.fileUpload">
-    <configuration name="Exceptions.exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium.commands.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.Exceptions" />
-      <option name="METHOD_NAME" value="exception" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exceptions.invokeAvoid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium.commands.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.Exceptions" />
-      <option name="METHOD_NAME" value="invokeAvoid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FileUploadTest.fileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
@@ -108,6 +77,38 @@
       <option name="PACKAGE_NAME" value="Selenium.commands" />
       <option name="MAIN_CLASS_NAME" value="Selenium.commands.FileUploadTest" />
       <option name="METHOD_NAME" value="fileUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSexecutor.moveToElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.commands" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.JSexecutor" />
+      <option name="METHOD_NAME" value="moveToElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSexecutor.scroll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.commands" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.JSexecutor" />
+      <option name="METHOD_NAME" value="scroll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FileUploadTest.fileUpload" />
+        <item itemvalue="JUnit.JSexecutor.scroll" />
+        <item itemvalue="JUnit.JSexecutor.moveToElement" />
         <item itemvalue="JUnit.test.test" />
         <item itemvalue="JUnit.WebTablesTest.webTablesTest" />
-        <item itemvalue="JUnit.Exceptions.invokeAvoid" />
-        <item itemvalue="JUnit.Exceptions.exception" />
       </list>
     </recent_temporary>
   </component>
@@ -183,22 +184,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626951096153" />
-    <state width="1877" height="354" key="GridCell.Tab.0.bottom" timestamp="1627673587639">
+    <state width="1877" height="354" key="GridCell.Tab.0.bottom" timestamp="1627675527173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627673587639" />
-    <state width="1877" height="354" key="GridCell.Tab.0.center" timestamp="1627673587638">
+    <state width="1877" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627675527173" />
+    <state width="1877" height="354" key="GridCell.Tab.0.center" timestamp="1627675527173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="354" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627673587638" />
-    <state width="1877" height="354" key="GridCell.Tab.0.left" timestamp="1627673587638">
+    <state width="1877" height="354" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627675527173" />
+    <state width="1877" height="354" key="GridCell.Tab.0.left" timestamp="1627675527173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="354" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627673587638" />
-    <state width="1877" height="354" key="GridCell.Tab.0.right" timestamp="1627673587638">
+    <state width="1877" height="354" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627675527173" />
+    <state width="1877" height="354" key="GridCell.Tab.0.right" timestamp="1627675527173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="354" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627673587638" />
+    <state width="1877" height="354" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627675527173" />
     <state x="776" y="297" key="chooseDestDirectoryDialog" timestamp="1626951258794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
