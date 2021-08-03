@@ -1,20 +1,27 @@
 package Selenium.commands;
 
-        import io.github.bonigarcia.wdm.WebDriverManager;
-        import org.junit.Test;
-        import org.openqa.selenium.*;
-        import org.openqa.selenium.chrome.ChromeDriver;
-        import org.openqa.selenium.interactions.Actions;
+import com.gargoylesoftware.htmlunit.BrowserVersion;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Test;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.interactions.Actions;
 
 
-public class JSexecutor {
+public class JExecutor {
     WebDriver driver;
 
-    public JSexecutor() {
+    public JExecutor() {
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-    }
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless");
+        driver = new ChromeDriver(options);
 
+
+
+    }
 
     @Test
     public void moveToElement() {
@@ -30,6 +37,8 @@ public class JSexecutor {
         js.executeScript("arguments[0].click();", deleteButton);
 
     }
+
+   
     @Test
     public void scroll() throws InterruptedException {
         driver.get("http://webdriveruniversity.com/Scrolling/index.html");
