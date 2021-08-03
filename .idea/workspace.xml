@@ -28,18 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7e1faf-adb6-4fb9-bfbc-ee228ea8333f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/commands/FileUploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/FileUploadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/commands/JSexecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/JExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/CommandsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/CommandsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/Exceptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/Exceptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/commands/JExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/JExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/FileUploadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/FileUploadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/JSexecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/WebElementsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/WebElementsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/WebTablesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/WebTablesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/JExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/JExecutor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,22 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CommandsTest2" />
   </component>
-  <component name="RunManager" selected="JUnit.JExecutor">
+  <component name="RunManager" selected="JUnit.FileUploadTest">
+    <configuration name="FileUploadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.commands" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.FileUploadTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileUploadTest.fileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
@@ -138,29 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium.commands.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileUploadTest" />
         <item itemvalue="JUnit.JExecutor" />
         <item itemvalue="JUnit.JExecutor.scroll" />
         <item itemvalue="JUnit.JExecutor.moveToElement" />
         <item itemvalue="JUnit.FileUploadTest.fileUpload" />
-        <item itemvalue="JUnit.test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +266,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/JExecutor.java</url>
-          <line>26</line>
+          <line>24</line>
           <properties class="Selenium.commands.JExecutor" method="moveToElement">
             <option name="EMULATED" value="true" />
           </properties>
@@ -284,11 +276,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/Exceptions.java</url>
           <line>63</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/JExecutor.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

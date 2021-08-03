@@ -19,8 +19,6 @@ public class JExecutor {
         options.addArguments("headless");
         driver = new ChromeDriver(options);
 
-
-
     }
 
     @Test
@@ -38,7 +36,7 @@ public class JExecutor {
 
     }
 
-   
+
     @Test
     public void scroll() throws InterruptedException {
         driver.get("http://webdriveruniversity.com/Scrolling/index.html");
