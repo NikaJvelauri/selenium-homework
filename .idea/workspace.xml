@@ -28,13 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7e1faf-adb6-4fb9-bfbc-ee228ea8333f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/CookieTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/selenium/CrossBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/CrossBrowserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/commands/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/selenium/CrossBrowser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,23 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/selenium" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CommandsTest2" />
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/ninja/IdeaProjects/selenium-homework/testing.xml">
+  <component name="RunManager" selected="JUnit.CookieTest.cookie">
+    <configuration name="CookieTest.cookie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.commands" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.CookieTest" />
+      <option name="METHOD_NAME" value="cookie" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CrossBrowserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
@@ -127,30 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrossBrowserTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium.commands.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.CrossBrowserTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CookieTest.cookie" />
         <item itemvalue="TestNG.C:/Users/ninja/IdeaProjects/selenium-homework/testing.xml" />
         <item itemvalue="JUnit.CrossBrowserTest" />
         <item itemvalue="JUnit.CrossBrowserTest.scroll" />
         <item itemvalue="JUnit.CrossBrowserTest.fileUpload" />
-        <item itemvalue="TestNG.CrossBrowserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,22 +176,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626951096153" />
-    <state width="1877" height="592" key="GridCell.Tab.0.bottom" timestamp="1627990443105">
+    <state width="1877" height="80" key="GridCell.Tab.0.bottom" timestamp="1627991145054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="592" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627990443105" />
-    <state width="1877" height="592" key="GridCell.Tab.0.center" timestamp="1627990443105">
+    <state width="1877" height="80" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627991145054" />
+    <state width="1877" height="80" key="GridCell.Tab.0.center" timestamp="1627991145054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="592" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627990443105" />
-    <state width="1877" height="592" key="GridCell.Tab.0.left" timestamp="1627990443104">
+    <state width="1877" height="80" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627991145054" />
+    <state width="1877" height="80" key="GridCell.Tab.0.left" timestamp="1627991145054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="592" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627990443104" />
-    <state width="1877" height="592" key="GridCell.Tab.0.right" timestamp="1627990443105">
+    <state width="1877" height="80" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627991145054" />
+    <state width="1877" height="80" key="GridCell.Tab.0.right" timestamp="1627991145054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="592" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627990443105" />
+    <state width="1877" height="80" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627991145054" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1627983923360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
