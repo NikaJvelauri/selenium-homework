@@ -10,7 +10,7 @@
 
         <classes>
 
-            <class name="selenium.CrossBrowser">
+            <class name="selenium.CrossBrowserTest">
 
 
             </class>
@@ -23,7 +23,7 @@
     <test name="EdgeTest">
         <parameter name="browser" value="Edge" />
         <classes>
-            <class name="selenium.CrossBrowser">
+            <class name="selenium.CrossBrowserTest">
             </class>
 
         </classes>
