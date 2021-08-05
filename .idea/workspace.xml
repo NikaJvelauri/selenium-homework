@@ -28,9 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7e1faf-adb6-4fb9-bfbc-ee228ea8333f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/AutoComplere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/AutoComplere.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/ActionClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/AutoComplere.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/AutoComplere.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/CookieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/CookieTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,38 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/selenium" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CommandsTest2" />
   </component>
-  <component name="RunManager" selected="JUnit.AutoComplere.autoComplete">
+  <component name="RunManager" selected="JUnit.ActionClassTest">
+    <configuration name="ActionClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.commands" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.ActionClassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionClassTest.actionClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.commands" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.ActionClassTest" />
+      <option name="METHOD_NAME" value="actionClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutoComplere.autoComplete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
@@ -115,38 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrossBrowserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="selenium.CrossBrowserTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/ninja/IdeaProjects/selenium-homework/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-homework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ActionClassTest" />
+        <item itemvalue="JUnit.ActionClassTest.actionClass" />
         <item itemvalue="JUnit.AutoComplere.autoComplete" />
         <item itemvalue="JUnit.AutoComplere.handleTooltip" />
         <item itemvalue="JUnit.CookieTest.cookie" />
-        <item itemvalue="TestNG.C:/Users/ninja/IdeaProjects/selenium-homework/testing.xml" />
-        <item itemvalue="JUnit.CrossBrowserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,22 +185,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626951096153" />
-    <state width="1877" height="406" key="GridCell.Tab.0.bottom" timestamp="1627999748917">
+    <state width="1877" height="406" key="GridCell.Tab.0.bottom" timestamp="1628161068058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627999748917" />
-    <state width="1877" height="406" key="GridCell.Tab.0.center" timestamp="1627999748917">
+    <state width="1877" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628161068058" />
+    <state width="1877" height="406" key="GridCell.Tab.0.center" timestamp="1628161068058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627999748917" />
-    <state width="1877" height="406" key="GridCell.Tab.0.left" timestamp="1627999748917">
+    <state width="1877" height="406" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628161068058" />
+    <state width="1877" height="406" key="GridCell.Tab.0.left" timestamp="1628161068058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627999748917" />
-    <state width="1877" height="406" key="GridCell.Tab.0.right" timestamp="1627999748917">
+    <state width="1877" height="406" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628161068058" />
+    <state width="1877" height="406" key="GridCell.Tab.0.right" timestamp="1628161068058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627999748917" />
+    <state width="1877" height="406" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628161068058" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1627983923360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
