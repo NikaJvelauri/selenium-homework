@@ -28,11 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7e1faf-adb6-4fb9-bfbc-ee228ea8333f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/ActionClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/BonusHomeWorkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/commands/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/AutoComplere.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/AutoComplere.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/commands/CookieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/commands/CookieTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/selenium" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CommandsTest2" />
   </component>
-  <component name="RunManager" selected="JUnit.ActionClassTest">
+  <component name="RunManager" selected="JUnit.BonusHomeWorkTest.bonusWork">
     <configuration name="ActionClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
@@ -115,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoComplere.handleTooltip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusHomeWorkTest.bonusWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
         <pattern>
@@ -124,14 +122,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.AutoComplere" />
-      <option name="METHOD_NAME" value="handleTooltip" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.BonusHomeWorkTest" />
+      <option name="METHOD_NAME" value="bonusWork" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CookieTest.cookie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebElementsTest.actionClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +138,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium.commands" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.commands.CookieTest" />
-      <option name="METHOD_NAME" value="cookie" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.commands.WebElementsTest" />
+      <option name="METHOD_NAME" value="actionClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ActionClassTest" />
+        <item itemvalue="JUnit.BonusHomeWorkTest.bonusWork" />
         <item itemvalue="JUnit.ActionClassTest.actionClass" />
+        <item itemvalue="JUnit.WebElementsTest.actionClass" />
+        <item itemvalue="JUnit.ActionClassTest" />
         <item itemvalue="JUnit.AutoComplere.autoComplete" />
-        <item itemvalue="JUnit.AutoComplere.handleTooltip" />
-        <item itemvalue="JUnit.CookieTest.cookie" />
       </list>
     </recent_temporary>
   </component>
@@ -185,22 +183,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626951096153" />
-    <state width="1877" height="406" key="GridCell.Tab.0.bottom" timestamp="1628161068058">
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1628165436226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628161068058" />
-    <state width="1877" height="406" key="GridCell.Tab.0.center" timestamp="1628161068058">
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628165436226" />
+    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1628165436226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628161068058" />
-    <state width="1877" height="406" key="GridCell.Tab.0.left" timestamp="1628161068058">
+    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628165436226" />
+    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1628165436226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628161068058" />
-    <state width="1877" height="406" key="GridCell.Tab.0.right" timestamp="1628161068058">
+    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628165436226" />
+    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1628165436226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628161068058" />
+    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628165436226" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1628163891277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628163891277" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1628163891277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628163891277" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1628163891277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628163891277" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1628163891277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628163891277" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1627983923360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -219,16 +233,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/WebElementsTest.java</url>
-          <line>18</line>
-          <properties class="Selenium.commands.WebElementsTest" method="addAndPrint">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/Selenium/commands/WebElementsTest.java</url>
           <line>30</line>
-          <properties class="Selenium.commands.WebElementsTest" method="challengingDom">
+          <properties class="Selenium.commands.WebElementsTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
